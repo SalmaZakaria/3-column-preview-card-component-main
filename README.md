@@ -10,8 +10,8 @@
 
 
 ## Live Site
-
+[Link](https://salmazakaria.github.io/3-column-preview-card-component-main/)
 
 ## Built With
--HTML5
--CSS3
+- HTML5
+- CSS3
