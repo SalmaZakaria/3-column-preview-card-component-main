@@ -48,7 +48,6 @@ body {
     color: white;
     font-family: Lexend;
     flex-wrap: wrap;
-    flex-direction: column;
     max-width: 300px;
     min-height: 100%;
     border-radius: 5px;
@@ -114,8 +113,6 @@ img {
 
 @media screen and (max-width: 375px) {
     .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
+        display: inline-block;
     }
 }
