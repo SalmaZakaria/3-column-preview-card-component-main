@@ -112,7 +112,7 @@ img {
 
 /* Responsive columns - one column layout (vertical) on small screens */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
     .column {
         width: 100%;
         display: block;
