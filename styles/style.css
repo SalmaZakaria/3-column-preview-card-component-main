@@ -113,9 +113,11 @@ img {
 /* Responsive columns - one column layout (vertical) on small screens */
 
 @media screen and (max-width: 375px) {
-    .column {
+    .row {
+        flex-direction: column;
+    }
+    .card {
         width: 100%;
-        display: block;
-        margin-bottom: 20px;
+        padding: 10%;
     }
 }
