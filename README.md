@@ -6,7 +6,7 @@
 - See hover states for interactive elements
 
 ## Screenshot
-![Design preview for the 3-column preview card component coding challenge](./design/My Design.jpg)
+![Design preview for the 3-column preview card component coding challenge] (./design/My Design.jpg)
 
 
 ## Live Site
