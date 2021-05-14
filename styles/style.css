@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(200, 200, 200);
+}
+
+
+/* Float four columns side by side */
+
+.column {
+    float: left;
+    height: 450px;
+    width: 250px;
+}
+
+
+/* Remove extra left and right margins, due to padding in columns */
+
+.row {
+    margin-left: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Style the counter cards */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    padding: 35px;
+    font-size: 15 px;
+    color: white;
+    font-family: Lexend;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 300px;
+    min-height: 100%;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 45px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    vertical-align: bottom;
+    padding: 10px;
+    text-align: center;
+    margin-top: 65px;
+    margin-left: 10px;
+    width: 120px;
+    transition-duration: 0.4s;
+}
+
+.b1:hover {
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+}
+
+.b2:hover {
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+}
+
+.b3:hover {
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+}
+
+img {
+    padding: 20px;
+}
+
+@font-face {
+    font-family: Lexend;
+    src: url(LexendDeca-Regular.ttf);
+    font-weight: 400;
+}
+
+#c1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.img1 {
+    padding: 10px;
+}
+
+#c2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#c3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
